@@ -1,5 +1,3 @@
-package tictactoe;
-
 /**
  * The TicTacToePlayer class is the fundamental class in running
  * the Tic Tac Toe game. The class is defined by what is move is,
