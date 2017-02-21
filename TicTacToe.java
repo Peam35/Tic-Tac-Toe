@@ -1,5 +1,3 @@
-package tictactoe;
-
 /**
  * The TicTacToe class carries many attributes that define
  * a game of Tic Tac Toe. The board of the game is 2d array
