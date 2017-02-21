@@ -1,5 +1,3 @@
-package tictactoe;
-
 /**
  * The Move class is defined by its mutability, its move, and position. The
  * class is meant to be used as an object in the 2d array board
