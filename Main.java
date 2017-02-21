@@ -24,17 +24,7 @@ import java.util.Scanner;
  */
 public class Main {
 	/*
-	 * *****************IMPORTANT NOTE*****************
-	 * I have spent much time on this project (a lot which was commenting code and writing javadoc).
-	 * I did a lot of thinking on what to write and how to write (mainly for the Computer class).
-	 * I know it may seem extra for all of the methods and classes I made for this project but I treated
-	 * this project as my first actual java project. I wanted to make sure I did it the proper object oriented
-	 * way. If I were to present this to my boss, I would do it this way. Also, there are a lot of improvements
-	 * that should be made for this project and there are some small bugs, like with noPossibleWin for example.
-	 * I acknowledge these subtle bugs and did not try to fix them because I am trying to minimize the complexity
-	 * of the program. There are also many things I want to add to the program. All of these things I want to address
-	 * later in the year, maybe when we do GUI (:)). To be honest, I got burnt out with this project but I do hope
-	 * to change, revise, and add things to this project at a later date. Thanks for reading my little story!
+	  There is much more to work on with this project and many more fixes but the current version right now works.
 	 */
 	// Scan and game should be used across all methods. In order to use
 	// the methods in main, all variables and methods must be static.
