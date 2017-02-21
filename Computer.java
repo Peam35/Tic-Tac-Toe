@@ -1,4 +1,3 @@
-package tictactoe;
 
 /** 
  * AP Computer Science A MKS21X-01
