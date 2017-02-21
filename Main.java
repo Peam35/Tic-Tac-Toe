@@ -1,5 +1,3 @@
-package tictactoe;
-
 import java.util.Scanner;
 /**
  * AP Computer Science A MKS21X-01
