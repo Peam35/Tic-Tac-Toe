@@ -47,7 +47,7 @@ public class Computer {
     	if (canPlayerWin()) return possibleWinMoveForPlayer();
     	return possiblePosition();
     }
-    
+   bugs 
     /**
      * Gives back the value of move which is the
      * Computer's char move.
