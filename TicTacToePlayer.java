@@ -22,7 +22,7 @@ public class TicTacToePlayer {
      * @param p   String variable to set player.
      */ 
     public TicTacToePlayer(char mov, String p) {
-        move = mov;
+        mov = move;
         player = p;
     }
     
