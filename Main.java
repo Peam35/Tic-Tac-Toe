@@ -17,7 +17,7 @@ import java.util.Scanner;
  * Some methods you may need:
  * 1) print the gameboard
  * 2) change the player
- * 3) get the player's move
+ * 3) get the player's move     test
  * 4) check the validity of the player's move
  * 5) check for win conditions
  * 
