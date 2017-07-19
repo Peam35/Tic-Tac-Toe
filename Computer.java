@@ -47,7 +47,7 @@ public class Computer {
     	if (canPlayerWin()) return possibleWinMoveForPlayer();
     	return possiblePosition();
     }
-   bugs 
+   test 
     /**
      * Gives back the value of move which is the
      * Computer's char move.
@@ -97,7 +97,7 @@ public class Computer {
     
     /**
      * Finds a possible position for the computer AI to
-     * use.
+     * use         bugs.
      * 
      * @return An array of two ints that specifies the row and
      *         column respectively that the computer should pick.

@@ -97,7 +97,7 @@ public class Main {
             game.printBoard();
             
             
-            int pos1 = scan.next().charAt(0), pos2 = scan.next().charAt(0); // Take the numerical char value of the user's input for two positions
+            int pos1 = scan.charAt(0), pos2 = scan.next().charAt(0); // Take the numerical char value of the user's input for two positions
             if (!correctPositions(pos1, pos2)) {
                 System.out.println("WHAT DID I SAY? Numbers between 1 and 3 please.");
                 continue;
