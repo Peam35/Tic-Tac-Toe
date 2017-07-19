@@ -27,7 +27,7 @@ public class TicTacToePlayer {
     }
     
     /**
-     * Gives the value of char move. Move is used
+     * Gives the value of chstar move. Move is used
      * set a character to the class Move.
      * 
      * @return The value of the char move.

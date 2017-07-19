@@ -28,8 +28,6 @@ public class Main {
 	 */
 	// Scan and game should be used across all methods. In order to use
 	// the methods in main, all variables and methods must be static.
-    private static Scanner scan;
-    private static TicTacToe game;
     
     /**
      * The main method asks for user input on playing a Tic Tac Toe game.
@@ -76,6 +74,10 @@ public class Main {
         } else if (response == 'N') {
         	TicTacToePlayer player2 = new TicTacToePlayer(weapon, "Player 2");
         	
+<<<<<<< HEAD
+        	game = new TicTacToe(player2, player1);
+=======
+>>>>>>> bugs
         	
             playerVersusPlayer(player1, player2);
         } else {
