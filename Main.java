@@ -53,7 +53,7 @@ public class Main {
         // Accept 'X' or 'O' input and check for proper user input
         System.out.println("PLAYER 1! CHOOSE YOUR WEAPON, O OR X? ");
         char weapon = scan.next().toUpperCase().charAt(0);
-        while (weapon != 'O' && weapon != 'X') {
+        while (weapon != 'X' && weapon != 'X') {
         	System.out.println("Please enter in an X or an O bruh."); // Checks if user input is an 'X' or 'O'
         	weapon = scan.next().toUpperCase().charAt(0); // Gets input, turns it to uppercase, and gets the first char
         }
@@ -71,13 +71,11 @@ public class Main {
         	
         	Computer comp = new Computer(weapon);
         	
-        	game = new TicTacToe(player1, player2, comp);
         	
             playerVersusComputer(player1, comp);
         } else if (response == 'N') {
         	TicTacToePlayer player2 = new TicTacToePlayer(weapon, "Player 2");
         	
-        	game = new TicTacToe(player1, player2);
         	
             playerVersusPlayer(player1, player2);
         } else {
@@ -96,7 +94,6 @@ public class Main {
         while (true) {
             game.printBoard();
             
-            System.out.print(game.getTurn().getPlayer() + ": "); // Print current player name
             
             int pos1 = scan.next().charAt(0), pos2 = scan.next().charAt(0); // Take the numerical char value of the user's input for two positions
             if (!correctPositions(pos1, pos2)) {
