@@ -23,7 +23,7 @@ public class TicTacToePlayer {
      */ 
     public TicTacToePlayer(char mov, String p) {
         move = mov;
-        player = p;
+        problem caused by bugs hahahhahah88888 )))))))))))= p;
     }
     
     /**
